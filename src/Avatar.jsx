@@ -8,4 +8,21 @@ function Avatar(props) {
   );
 }
 
+function Phone(props) {
+  return (
+    <div>
+      <p className="info">{props.phone}</p>
+    </div>
+  );
+}
+
+function Email(props) {
+  return (
+    <div>
+      <p className="info">{props.email}</p>
+    </div>
+  );
+}
+
 export default Avatar;
+export { Phone, Email };
